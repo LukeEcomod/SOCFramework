@@ -36,7 +36,7 @@ to Luke *weather* database.
 
 Once R, Python, Fortran and Git are installed take the step-by-step instructions how to build
 this initial framework into working order. The minor issue may be that you may need to spend some
-time in terminal command line of the operating systme.
+time in terminal command line of the operating system.
 
 ## Download Yasso models, LukeWeather and SOCFramework
 Yasso07 is located in [YASSO07](https://github.com/YASSOmodel/YASSO07) GitHub repository.
