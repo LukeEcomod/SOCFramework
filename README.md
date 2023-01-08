@@ -61,6 +61,7 @@ Finally, download SOCFramework:
 Install in R/RStudio  the  *reticulate* R package for Python interoprability. 
 
 ## Compile Yasso models
+
 Compile Yasso models as shared libraries. Their implementations are in *y07_subroutine.f90*
 and *yassofortran.f90* respectively located in project *model* directories.  First, both Fortran 
 implementations must be edited:
@@ -112,13 +113,13 @@ Note the *lukeweather* prompt appearing. Then install *setuptools* and *wheel* p
 Install LukeWeather as *wheel* package into your virtual environment.
 If necessary uninstal previous installation: 
 
-    (weather) python setup.py  bdist_wheel 
-    (weather) pip uninstall LukeWeather
-    (weather) pip install  dist/LukeWeather-1.0-py3-none-any.whl
+    (lukeweather) python setup.py  bdist_wheel 
+    (lukeweather) pip uninstall LukeWeather
+    (luekweather) pip install  dist/LukeWeather-1.0-py3-none-any.whl
 
 Test the installation:
 
-	(weather) python
+	(lukeweather) python
 	>>>import LukeWeather.fmidata
     >>>import LukeWeather.checkfmidata
 	>>>quit()
@@ -128,6 +129,8 @@ implementation details LukeWeather is documented for Doxygen. Generate the final
 running `doxygen` with  *Doxyfile* input that parses and formats Python file contents.
 
 ## Run the Yasso models with SOCFramework
+
+Start R/RStudio and change directory to SOCFramework.
 
 You should have the  same Python version for R/RStudio and terminal command line. 
 If you have only one Python installation this should be the case. 
