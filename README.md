@@ -51,7 +51,7 @@ To download [LukeWeather](https://github.com/LukeEcomod/LukeWeather.git) with `g
 
 	git clone https://github.com/LukeEcomod/LukeWeather.git
 	
-LukeWeather Git repository is private. Ask for membership (samuli.launiainen@luke.fi) in LukeEcomod GitHub group to gain access.
+LukeWeather Git repository is private. Ask for membership (Samuli Launiainen, Luke) in LukeEcomod GitHub group to gain access.
 
 Finally, download SOCFramework:
 
