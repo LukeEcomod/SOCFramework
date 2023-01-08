@@ -234,8 +234,8 @@ The result for SOC dynamics  is in *y20soc* data frame:
 For implementation details see comments in *yasso7.r* and *yasso20.r.*
 
 ## Futher work
-For this framework *grid_day* table in *weather* database is used. It is updated daily giving contemporary 
-daily weather data from 2016 to present-day  (given one or two day delays with database updates).
+For this framework *grid_day* table in Luke *weather* database is used. It is updated daily giving contemporary 
+daily weather data from 2016 to present-day (given day or two delays with database updates).
 The table *grid10_day* should be straightforward to include within a day or two.
 It is static and not updated giving daily weather data from 1961 to 2018.
 
