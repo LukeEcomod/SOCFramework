@@ -89,7 +89,7 @@ Copy *y07_subroutine.so* and *yassofortran.so* to SOCFramework.
 ## Create Python virtual environment for LukeWeather
 To create Python virtual environment type in terminal:
 
-	python -m venv weather
+	python -m venv lukeweather
 
 Yours truly has in home directory *venv* subdirectory  under which all python virtual environments are created.
 
@@ -97,17 +97,17 @@ In LukeWeather directory you should see *setup.py* file. See [README_setup](READ
 install LukeWeather to weather virtual environment. In short activate first the virtual enviroment. On Linux
 type:
 
-	source weather/bin/activate
-	(weather)
+	source lukeweather/bin/activate
+	(lukeweather)
 	
 On Windows10 type:
 	
-	weather/Scripts/activate
-	(weather)
+	lukeweather/Scripts/activate
+	(lukeweather)
 
-Note the *weather* prompt appearing. Then install *setuptools* and *wheel* packages:
+Note the *lukeweather* prompt appearing. Then install *setuptools* and *wheel* packages:
 
-	(weather) pip install setuptool wheel
+	(lukeweather) pip install setuptool wheel
 
 Install LukeWeather as *wheel* package into your virtual environment.
 If necessary uninstal previous installation: 
@@ -141,8 +141,8 @@ line:
 
 	use_virtualenv('~/venv/lukeweather')
 
-activates *lukeweather* python virtual environment. The path argument
-string must be edited to point to the installation location.
+activates *lukeweather* python virtual environment. The argument string for path 
+must be edited to point to the installation location.
 	
 There also are two files *awenh.csv* and  *yassoinit.csv*
 for litter infall and initial values. They follow Excel  input for [Yasso server in Luke](https://yasso.luke.fi/).
@@ -154,7 +154,7 @@ weather data for Yasso07  in R/RSudio type:
 	> y07weather <- yasso07.weather(E,N,'user_name','password','2016-01-01','2022-12-31')
 
 E and N contain North and East coordinates for Pudasjärvi that can be found in Luke *weather* database.
-To be precise: closest point is found. You should see *y07weather* to contain the following data frame:
+or ro be precise: closest point for E and N is found. You should see *y07weather* to contain the following data frame:
 
 	> y07weather
 
