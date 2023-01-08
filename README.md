@@ -130,12 +130,12 @@ running `doxygen` with  *Doxyfile* input that parses and formats Python file con
 ## Run the Yasso models with SOCFramework
 
 You should have the  same Python version for R/RStudio and terminal command line. 
+If you have only one Python installation this should be the case. 
 Otherwise errors may turn up using *reticulate* package. 
-If you have only one Python installation this should be the case.
-Otherwise for example yours truly has started first the virtual environment for LukeWeather and 
-in that virtual envronment from the command line RStudio. 
+If this happens the workaround is to activate first the virtual environment for LukeWeather and 
+in that virtual envronment from the command line start RStudio. 
 
-The two demonstraions for Yasso07 and Yasso20 are called `yasso07.r` and 
+The two demonstrations for Yasso07 and Yasso20 are called `yasso07.r` and 
 `yasso20.r.` respectively. **NB:** In the beginning of both files the
 line:
 
