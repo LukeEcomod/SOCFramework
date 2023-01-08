@@ -67,9 +67,9 @@ Compile Yasso models as shared libraries. Their implementations are in *y07_subr
 and *yassofortran.f90* respectively located in project *model* directories.  First, both Fortran 
 implementations must be edited:
 
-	+ Replace every REAL with DOUBLE PRECISION (both Yasso07 and Yasso20)
-	+ Replace type cast to REAL with DBLE (i.e. double precision) in Yasso20 model
-	+ Yasso20 wraps Yasso20 model with Fortran 90 *module* declaration. Remove it.
++ Replace every REAL with DOUBLE PRECISION (both Yasso07 and Yasso20)
++ Replace type cast to REAL with DBLE (i.e. double precision) in Yasso20 model
++ Yasso20 wraps Yasso20 model with Fortran 90 *module* declaration. Remove it.
 
 
 The Yasso Fortran implementations will be called via `.Fortran` foreign function interface in R.
