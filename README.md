@@ -202,7 +202,7 @@ The result for SOC dynamics  is in *y07soc* data frame:
  |  2021   | 4.142418   |  0.4258699     |  0.4270894  |  4.947869     | 44.40256      |    0	 |
  |  2022   | 3.504887   |  0.3695343     |  0.3722988  |  4.487991     | 44.39891      |    0	 |
 	 								   	   											   |
-To run Yasso20 carbon model with the same litter input and stock data type:
+To run Yasso20 carbon model with the same initial stock and annual litter input:
 
 	> source('yasso20.r')
 	> y20soc <- yasso20.soc(yasso20.parameters,y20weather,litter.start.stock,df.litter)
