@@ -62,8 +62,8 @@ Install in R/RStudio  the  *reticulate* R package for Python interoprability.
 
 ## Compile Yasso models
 
-Compile Yasso models as shared libraries. Their implementations are in *y07_subroutine.f90*
-and *yassofortran.f90* respectively located in project *model* directories.  First, both Fortran 
+Compile Yasso07 and Yasso20 models as shared libraries. Their Fortran implementations are in *y07_subroutine.f90*
+and *yassofortran.f90* respectively located in their project *model* directories.  First, both Fortran 
 implementations must be edited:
 
 +   Replace every REAL with DOUBLE PRECISION (both Yasso07 and Yasso20)
