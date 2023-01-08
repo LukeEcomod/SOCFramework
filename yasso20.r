@@ -1,5 +1,6 @@
 library(reticulate)
 source("yasso20wrapper.r")
+##Important: the path should point to the location of the virtual environment
 use_virtualenv('~/venv/lukeweather')
 yw<-import('LukeWeather.yassoweather')
 
