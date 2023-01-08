@@ -22,9 +22,7 @@ and GUI implementations.
 First, the precursory software consists naturally of Python and R  interpreters. 
 This framework has been constructed with Python 3.9 and RSudio 2022.07.0/R version 4.1.2 
 but Python version above 3.6 and earlier or later R versions should work as well. This
-has not been tested though.  
-
-Second, Fortan compiler is needed to compile Yasso  models. 
+has not been tested though. Second, Fortan compiler is needed to compile Yasso  models. 
 The free Fortran compiler is `gfortran`. Third, `git` is needed to access GitHub.
 
 In Luke this prerequisite software should be available from Software Center for Windows 10. 
