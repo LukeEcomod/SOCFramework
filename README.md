@@ -155,7 +155,8 @@ weather data for Yasso07  in R/RSudio type:
 	> source('yasso07.r') 
 	> y07weather <- yasso07.weather(E,N,'user_name','password','2016-01-01','2022-12-31')
 
-You should see *y07weather* to contain the following data frame:
+E and N contain North and East coordinates for Pudasjärvi that can be found in Luke *weather* database.
+To be precise: closest point found. You should see *y07weather* to contain the following data frame:
 
 	> y07weather
 
