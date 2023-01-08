@@ -78,9 +78,7 @@ In this interface R can only interact with Fortran using double precision floati
 but the usage is simple and straightfoward. With more modern `.C`  or `.Call` function interfaces 
 one ends up writing R function calling C function calling C function calling Fortran function. 
 
-Ask for help if in doubt how to do these edits.
-
-To compile Yasso07 type in terminal:
+Ask for help if in doubt how to do these edits. To compile Yasso07 type in terminal:
 	
 	gfortran -shared -fPIC -O2 -o  y07_subroutine.so y07_subroutine.f90 
 
@@ -88,6 +86,8 @@ To compile Yasso20:
 
 	gfortran -shared -fPIC -O2 -o   yassofortran.so yassofortran.f90
 	
+Copy *y07_subroutine.so* and *yassofortran.so* to SOCFramework.
+
 ## Create Python virtual environment for LukeWeather
 To create Python virtual environment type in terminal:
 
