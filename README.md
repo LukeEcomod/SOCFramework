@@ -138,7 +138,15 @@ Otherwise for example yours truly has started first the virtual environment for 
 in that virtual envronment from the command line RStudio. 
 
 The two demonstraions for Yasso07 and Yasso20 are called `yasso07.r` and 
-`yasso20.r.` respectively. There also are two files *awenh.csv* and  *yassoinit.csv*
+`yasso20.r.` respectively. **NB:** In the beginning of both files the
+line:
+
+	use_virtualenv('~/venv/lukeweather')
+
+activates *lukeweather* python virtual environment. The path argument
+string must be edited to point to the installation location.
+	
+There also are two files *awenh.csv* and  *yassoinit.csv*
 for litter infall and initial values. They follow Excel  input for [Yasso server in Luke](https://yasso.luke.fi/).
 
 To intialize litter stock variables in R/RStudio `source` both R files.  To retrieve
