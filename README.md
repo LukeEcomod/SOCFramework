@@ -88,20 +88,20 @@ To compile Yasso20:
 Copy *y07_subroutine.so* and *yassofortran.so* to SOCFramework.
 
 ## Create Python virtual environment for LukeWeather
-To create Python virtual environment type in terminal:
+To create Python virtual environment (in current directory) type in terminal:
 
 	python -m venv lukeweather
 
 Yours truly has in home directory *venv* subdirectory  under which all python virtual environments are created.
 
-In LukeWeather directory you should see *setup.py* file. See [README_setup](README_setup.md) to
-install LukeWeather to weather virtual environment. In short activate first the virtual enviroment. On Linux
-type:
+In LukeWeather directory you should see *setup.py* file. See *README_setup* file for details to
+install LukeWeather to *lukeweather* virtual environment. In short activate first the virtual enviroment. 
+On Linux or Mac type:
 
 	source lukeweather/bin/activate
 	(lukeweather)
 	
-On Windows10 type:
+On Windows 10 type:
 	
 	lukeweather/Scripts/activate
 	(lukeweather)
@@ -119,10 +119,10 @@ If necessary uninstal previous installation:
 
 Test the installation:
 
-	(lukeweather) python
-	>>>import LukeWeather.fmidata
+    (lukeweather) python
+    >>>import LukeWeather.fmidata
     >>>import LukeWeather.checkfmidata
-	>>>quit()
+    >>>quit()
 	
 You should not get any errors. Type `deactivate` to quit virtual environment. If you are interested in
 implementation details LukeWeather is documented for Doxygen. Generate the final document by 
