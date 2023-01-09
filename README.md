@@ -15,7 +15,7 @@ programming skills are required by the user. Short introduction to R
 and how to call functions in R should be adequate. 
 
 **NB:** If you are only interested the Yasso family of SOC models see their official
-[GitHub repository](https://github.com/YASSOmodel) for Yasso Fortran implementations,
+[YASSOmodel repository](https://github.com/YASSOmodel) for Yasso Fortran implementations,
 R interface and graphical user interface implementations.
 
 ## Installation of necessary software
