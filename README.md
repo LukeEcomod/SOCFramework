@@ -73,8 +73,8 @@ implementations must be edited:
 
 The Yasso Fortran implementations will be called via `.Fortran` foreign function interface in R.
 In this interface R can only interact with Fortran using double precision floating point numeric values. 
-`.Fortran`is  admittedly old and does not support Fortran 90/95 *module* declarations either 
-but the usage is simple and straightfoward. With more modern `.C`  or `.Call` function interfaces 
+`.Fortran`is  admittedly old and meant for Fortran 77. It does not support Fortran 90/95 *module*
+declarations either but the usage is simple and straightfoward. With more modern `.C`  or `.Call` function interfaces 
 one ends up writing R function calling C function calling C function calling Fortran function. 
 
 Ask for help if in doubt how to do these edits. To compile Yasso07 type in terminal:
