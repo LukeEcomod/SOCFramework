@@ -16,7 +16,7 @@ and how to call functions in R should be adequate.
 
 **NB:** If you are only interested the Yasso family of SOC models see their official
 [GitHub repository](https://github.com/YASSOmodel) for Yasso, R interface
-and GUI implementations.
+and graphical user interface implementations.
 
 ## Installation of necessary software
 First, the precursory software consists naturally of Python and R  interpreters. 
