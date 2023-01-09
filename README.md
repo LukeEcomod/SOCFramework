@@ -5,7 +5,7 @@ The purpose of this work with Luke *weather* database,  Yasso07 and Yasso20 mode
 is to propose an initial framework that could be exapnded to include other soil organic carbon 
 (SOC) models and perhaps other (European) weather database systems.
 
-The implementation of the intial framework is done  with mixed python and R  environment.
+The implementation of the intial framework is done  with mixed Python and R  environment.
 Partially because limited time available and partially to utilize work done before in
 various projects.
 
