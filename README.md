@@ -14,7 +14,7 @@ and are naturally exposed to user via GitHub, one of the design goals was that n
 programming skills are required by the user. Short introduction to R 
 and how to call functions in R should be adequate. 
 
-**NB:** If you are only interested the Yasso family of SOC models see their official
+**NB:** If you are only interested the Yasso family of SOC models see the official
 [YASSOmodel repository](https://github.com/YASSOmodel) for Yasso Fortran implementations,
 R interface and graphical user interface implementations.
 
