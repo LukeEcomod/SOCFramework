@@ -38,12 +38,13 @@ time in terminal command line of the operating system.
 
 ## Download Yasso models, LukeWeather and SOCFramework
 Yasso07 is located in [YASSO07](https://github.com/YASSOmodel/YASSO07) GitHub repository.
-You will notice *Code* menu where you can download the zip file. To use `git` copy the address
-and write in terminal:
+You will notice *Code* menu where you can download the zip file. To use `git` write
+the following command in terminal:
 	
 	git clone https://github.com/YASSOmodel/YASSO07
 		
-Yasso20 is located in [YASSO20](https://github.com/YASSOmodel/Yasso20).  Download zip file or use `git`:
+Yasso20 is located in [YASSO20](https://github.com/YASSOmodel/Yasso20). 
+In the same way download zip file or use `git`:
 
 	git clone https://github.com/YASSOmodel/Yasso20
 	
@@ -51,7 +52,8 @@ To download [LukeWeather](https://github.com/LukeEcomod/LukeWeather.git) with `g
 
 	git clone https://github.com/LukeEcomod/LukeWeather.git
 	
-LukeWeather Git repository is private. Ask for membership (Samuli Launiainen, Luke) in LukeEcomod GitHub group to gain access.
+LukeWeather GitHub repository is private. Ask for membership (Samuli Launiainen, Luke) in LukeEcomod
+GitHub group to gain access.
 
 Finally, download SOCFramework:
 
