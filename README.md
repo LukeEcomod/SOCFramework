@@ -1,8 +1,8 @@
 # SOCFramework for soil organic carbon models with Luke weather database
 
 ## Introduction
-The purpose of this initial work with Luke *weather* database,  Yasso07 and Yasso20 models
-is to propose a initial framework that could be exapnded to include other soil organic carbon 
+The purpose of this work with Luke *weather* database,  Yasso07 and Yasso20 models
+is to propose an initial framework that could be exapnded to include other soil organic carbon 
 (SOC) models and perhaps other (European) weather database systems.
 
 The implementation of the intial framework is done  with mixed python and R  environment.
