@@ -60,7 +60,7 @@ Finally, download SOCFramework:
 	git clone https://github.com/LukeEcomod/SOCFramework
 	
 ## R and Python interoperability 
-Install in R/RStudio  the  *reticulate* R package for Python interoprability. 
+Install in R/RStudio  the  *reticulate* R package for Python interoperability. 
 
 ## Compile Yasso models
 
