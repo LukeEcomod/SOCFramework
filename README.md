@@ -90,7 +90,7 @@ To compile Yasso20:
 Copy *y07_subroutine.so* and *yassofortran.so* to SOCFramework.
 
 ## Create Python virtual environment for LukeWeather
-To create Python virtual environment (in current directory) type in terminal:
+To create Python virtual environment (in current directory) type in terminal[^venv]:
 
 	python -m venv lukeweather
 
@@ -248,3 +248,6 @@ to say  how long that would take.
 
 Include other (European) weather databases. Again, yours truly is not familiar with them so it is
 difficult to say how long that would take. 
+
+[^venv]: Yours truly has in home directory *venv* subdirectory  under which all python virtual
+environments are created.
