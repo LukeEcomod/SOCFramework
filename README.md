@@ -89,12 +89,13 @@ To compile Yasso20:
 	
 Copy *y07_subroutine.so* and *yassofortran.so* to SOCFramework.
 
-## Create Python virtual environment for LukeWeather
-To create Python virtual environment (in current directory) type in terminal[^venv]:
+## Install LukeWeather 
+First, to create Python virtual environment type in terminal[^venv]:
 
 	python -m venv lukeweather
 
-In LukeWeather directory you should see *setup.py* file. See *README_setup* file for details to
+In LukeWeather directory you should see *setup.py* file. See [LukeWeather](https://github.com/LukeEcomod/LukeWeather) *
+and [README_setup](https://github.com/LukeEcomod/LukeWeather/README_setup.md) file for details to
 install LukeWeather to *lukeweather* virtual environment. In short activate first the virtual enviroment. 
 On Linux or Mac type:
 
