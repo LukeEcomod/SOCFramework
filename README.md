@@ -94,8 +94,6 @@ To create Python virtual environment (in current directory) type in terminal[^ve
 
 	python -m venv lukeweather
 
-Yours truly has in home directory *venv* subdirectory  under which all python virtual environments are created.
-
 In LukeWeather directory you should see *setup.py* file. See *README_setup* file for details to
 install LukeWeather to *lukeweather* virtual environment. In short activate first the virtual enviroment. 
 On Linux or Mac type:
