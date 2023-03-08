@@ -161,7 +161,8 @@ weather data for Yasso07  in R/RSudio type:
 
 You will need read permission for *weather* database. Contact Arto Aalto at Luke.
 E and N contain East and North coordinates for Pudasjärvi that can be found in Luke *weather* database.
-To be precise: the closest point for E and N is found. You should see *y07weather* to contain the following data frame:
+To be precise: the closest point for E and N is found in Euclidian space. 
+You should see *y07weather* to contain the following data frame:
 
 	> y07weather
 
@@ -235,7 +236,8 @@ The result for SOC dynamics  is in *y20soc* data frame:
 |  2021    |  4.870214   |  0.5015199   |  0.5091259   |  7.962147   | 44.15661   |  0			   |
 |  2022    |  4.277270   |  0.4437070   |  0.4416660   |  7.678748   | 44.09608   |  0			   |
 
-For implementation details see comments in *yasso7.r* and *yasso20.r.*
+For implementation details see comments in *yasso7.r* and *yasso20.r* and also 
+[LukeWeather](https://github.com/LukeEcomod/LukeWeather) GitHub repository.
 
 ## Futher work
 For this framework *grid_day* table in Luke *weather* database is used. It is updated daily giving contemporary 
