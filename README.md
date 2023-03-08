@@ -236,8 +236,8 @@ The result for SOC dynamics  is in *y20soc* data frame:
 |  2021    |  4.870214   |  0.5015199   |  0.5091259   |  7.962147   | 44.15661   |  0			   |
 |  2022    |  4.277270   |  0.4437070   |  0.4416660   |  7.678748   | 44.09608   |  0			   |
 
-For implementation details see comments in *yasso7.r* and *yasso20.r* and also 
-[LukeWeather](https://github.com/LukeEcomod/LukeWeather) GitHub repository.
+For implementation details see comments in [yasso7.r](yasso07.r) and [yasso20.r](yasso20.r) 
+and also  [LukeWeather](https://github.com/LukeEcomod/LukeWeather) GitHub repository.
 
 ## Futher work
 For this framework *grid_day* table in Luke *weather* database is used. It is updated daily giving contemporary 
