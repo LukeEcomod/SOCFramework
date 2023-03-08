@@ -94,8 +94,8 @@ First, to create Python virtual environment type in terminal[^venv]:
 
 	python -m venv lukeweather
 
-In LukeWeather directory you should see *setup.py* file. See [LukeWeather](https://github.com/LukeEcomod/LukeWeather) *
-and [README_setup](https://github.com/LukeEcomod/LukeWeather/README_setup.md) file for details to
+See [LukeWeather](https://github.com/LukeEcomod/LukeWeather) and the
+[README_setup](https://github.com/LukeEcomod/LukeWeather/blob/master/README_setup.md) file for details to
 install LukeWeather to *lukeweather* virtual environment. In short activate first the virtual enviroment. 
 On Linux or Mac type:
 
@@ -111,8 +111,8 @@ Note the *lukeweather* prompt appearing. Then install *setuptools* and *wheel* p
 
 	(lukeweather) pip install setuptool wheel
 
-Install LukeWeather as *wheel* package into your virtual environment.
-If necessary uninstal previous installation: 
+In LukeWeather directory you should see *setup.py* file. Install LukeWeather as *wheel* package into your *lukeweather*
+virtual environment (uninstall previous installation): 
 
     (lukeweather) python setup.py  bdist_wheel 
     (lukeweather) pip uninstall LukeWeather
