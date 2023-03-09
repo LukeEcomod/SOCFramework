@@ -92,19 +92,19 @@ Copy *y07_subroutine.so* and *yassofortran.so* to SOCFramework.
 ## Install LukeWeather 
 First, to create Python virtual environment type in terminal[^venv]:
 
-	python -m venv lukeweather
+	python -m venv venv/lukeweather
 
 See [LukeWeather](https://github.com/LukeEcomod/LukeWeather) and the
 [README_setup](https://github.com/LukeEcomod/LukeWeather/blob/master/README_setup.md) file for details to
 install LukeWeather to *lukeweather* virtual environment. In short activate first the virtual enviroment. 
 On Linux or Mac type:
 
-	source lukeweather/bin/activate
+	source venv/lukeweather/bin/activate
 	(lukeweather)
 	
-On Windows 10 type:
+On Windows 10 type (PowerShell):
 	
-	lukeweather/Scripts/activate
+	venv/lukeweather/Scripts/activate
 	(lukeweather)
 
 Note the *lukeweather* prompt appearing. Then install *setuptools* and *wheel* packages:
