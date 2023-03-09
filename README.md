@@ -141,8 +141,9 @@ the *lukeweather* virtual environment and in that virtual envronment from
 the command line start R/RStudio. 
 
 The two demonstrations for Yasso07 and Yasso20 are called `yasso07.r` and 
-`yasso20.r` respectively. **NB:** In the beginning of both files the
-line:
+`yasso20.r` respectively. 
+
+**NB:** In the beginning of both files the line:
 
 	use_virtualenv('~/venv/lukeweather')
 
