@@ -136,7 +136,7 @@ Start R/RStudio and change directory to SOCFramework.
 You should have the  same Python version for R/RStudio and terminal command line. 
 If you have only one Python installation this should be the case. 
 Otherwise errors may turn up using *reticulate* package. 
-If this happens the workaround is to from the terminal command line first activate 
+If this happens the workaround is to from the terminal (PowerShell) command line first activate 
 the *lukeweather* virtual environment and in that virtual envronment from
 the command line start R/RStudio. 
 
