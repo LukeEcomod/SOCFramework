@@ -150,7 +150,7 @@ The two demonstrations for Yasso07 and Yasso20 are called `yasso07.r` and
 activates *lukeweather* python virtual environment. The argument string for path 
 must be edited to point to the installation location.
 	
-There also are two sample files |[awenh.csv](awenh.csv) and  [yassoinit.csv](yassoinit.csv)
+There also are two sample files [awenh.csv](awenh.csv) and  [yassoinit.csv](yassoinit.csv)
 for litter infall and initial values. They follow Excel  input for [Yasso server in Luke](https://yasso.luke.fi/).
 
 ### Weather 
