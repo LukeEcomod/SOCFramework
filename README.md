@@ -161,8 +161,9 @@ weather data for Yasso07  in R/RSudio type:
 
 You will need read permission for *weather* database. Contact Arto Aalto at Luke.
 E and N contain East and North coordinates for Pudasjärvi that can be found in Luke *weather* database.
-To be precise: the closest point for E and N is found in Euclidian space. 
-You should see *y07weather* to contain the following data frame:
+To be precise: by default the closest point for E and N is found in *weather* database in Euclidian space. 
+This is a bit slower than defining E and N as exact grid point by setting last argument *exact_location=TRUE*
+(see [yasso07.r](yasso07.r)) for details. You should see *y07weather* to contain the following data frame:
 
 	> y07weather
 
