@@ -200,7 +200,7 @@ some grid point in the *weather* database. You should see the following data fra
 Yasso20 uses the monthly temperature means instead annual temperature means with temperature amplitude 
 in Yasso07. Because year 2016 did not have full 12 months of data it was dropped from the results.
 
-### Soil organic carbomn simulation
+### Soil organic carbon simulation
 To run Yasso07 soil carbon model with data for this demonstration type:
 
 	> source('yasso07.r')
