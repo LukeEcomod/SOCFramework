@@ -153,6 +153,7 @@ must be edited to point to the installation location.
 There also are two files *awenh.csv* and  *yassoinit.csv*
 for litter infall and initial values. They follow Excel  input for [Yasso server in Luke](https://yasso.luke.fi/).
 
+### Weather 
 To intialize litter stock variables in R/RStudio `source` both R files.  To retrieve
 weather data for Yasso07  in R/RSudio type:
 	
@@ -161,8 +162,8 @@ weather data for Yasso07  in R/RSudio type:
 
 You will need read permission for *weather* database. Contact Arto Aalto at Luke.
 E and N contain East and North coordinates for Pudasjärvi that can be found in Luke *weather* database.
-To be precise: by default the closest point for E and N is found in *weather* database in Euclidian space. 
-This is a bit slower than defining E and N as exact grid point by setting last argument *exact_location=TRUE*
+To be precise: by default the closest point for E and N is found in the *weather* database assuming Euclidian space. 
+This is a bit slower than defining E and N as exact grid point by setting the last argument *exact_location=TRUE*
 (see [yasso07.r](yasso07.r) for details). You should see *y07weather* to contain the following data frame:
 
 	> y07weather
@@ -182,7 +183,8 @@ For Yasso20 weather data type:
 	> source('yasso20.r')
 	> y20weather <- yasso20.weather(E,N,'user_name','password','2016-01-01','2022-12-31')
 	
-You should see the following data frame in *y20weather*:
+Identically to *yasso07.weather* the last argument *exact_location=TRUE* assumes the given coordinate point is
+some grid point in the *weather* database. You should see the following data frame in *y20weather*:
 
 	> y20weather
 	
@@ -198,6 +200,7 @@ You should see the following data frame in *y20weather*:
 Yasso20 uses the monthly temperature means instead annual temperature means with temperature amplitude 
 in Yasso07. Because year 2016 did not have full 12 months of data it was dropped from the results.
 
+### Soil organic carbom simulation
 To run Yasso07 soil carbon model with data for this demonstration type:
 
 	> source('yasso07.r')
